@@ -52,7 +52,7 @@ for(i=0; i<document.getElementsByClassName("boxtwo").length; i++){
 }
 
 //To add a simple music player, I combined the concepts from class with this: https://javascript-tutor.net/index.php/playing-music-using-javascript/
-let dailySound=["Dawn.wav","SURPRISE.wav","tropics.wav","MusicVideoEDIT.wav","Salerno.wav","DreamScoreMaster.wav","Discovery.wav"]
+let dailySound=["Dawn.wav","Ego Death (Intro).wav","tropics.wav","MusicVideoEDIT.wav","SURPRISE.wav","DreamScoreMaster.wav","Discovery.wav"]
 
 for(i=0; i<document.getElementsByClassName("audio").length; i++){
   document.getElementsByClassName("audio")[i].innerHTML="<source src='assets/"+dailySound[day]+"' type='audio/wav'>";
