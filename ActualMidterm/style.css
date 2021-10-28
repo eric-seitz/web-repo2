@@ -1,0 +1,202 @@
+html{
+  background-color: #005D63;
+}
+
+h1{
+  font-family: "Wire One";
+  color: #FF9900;
+  text-align: center;
+  font-size: 58px;
+  font-weight: normal;
+  text-decoration: underline;
+  padding: 0 10vw;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 27px;
+  text-align: center;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 27px;
+  text-align: left;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+h4{
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 27px;
+  text-align: left;
+  color: #002729;
+  text-decoration: underline;
+  text-decoration-color: #002729;
+}
+
+h5{
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 22px;
+  text-align: left;
+  color: white;
+  padding-right: 5px;
+}
+
+h6{
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 27px;
+  text-align: center;
+  color: #002729;
+  padding-right: 5px;
+}
+
+h7{
+  text-decoration: underline;
+  text-decoration-color: #FF9900;
+}
+
+#date{
+  text-decoration: underline;
+  text-decoration-color: #FF9900;
+}
+
+p{
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 27px;
+  text-align: center;
+  line-height: 45px;
+  color: white;
+  padding-right: 8px;
+  padding-left: 8px;
+  text-decoration: underline;
+  text-decoration-color: #585858;
+
+}
+
+.audio{
+  padding-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.time{
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  color: #002729;
+  line-height: 10px;
+}
+
+#boxes{
+  display: flex;
+  flex-direction: row;
+}
+
+#center{
+  flex-grow: 3;
+  margin: 0 1vw 0 1vw;
+  border: 1.5px solid #FF9900;
+  border-radius: 6px;
+  background-color: #0099A3;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#datebox{
+  flex-grow: 0.5;
+  border: 1px solid #002729;
+  border-radius: 6px;
+  background-color: #FF9900;
+  max-width: 20vw;
+  max-height: 12vh;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+#innerboxone{
+  flex-grow: 3;
+  border: 1px solid white;
+  border-radius: 6px;
+  background-color: #585858;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+#innerboxtwo{
+  flex-grow: 2;
+  border: 1px solid #002729;
+  border-radius: 6px;
+  background-color: #FF9900;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+#left{
+  flex-grow: 1.5;
+  background-color: #585858;
+  width: 25vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#photo{
+  flex-grow: 1;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+img{
+  width: 100%;
+  padding-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sounds{
+  flex-grow: 1;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+#right{
+  flex-grow: 1.5;
+  background-color: #585858;
+  width: 25vw;
+  height: auto;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.outer{
+  border: 1.5px solid white;
+  border-radius: 6px;
+  background-color: #585858;
+  margin-top: 2vh;
+}

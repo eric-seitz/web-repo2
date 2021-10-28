@@ -1,0 +1,73 @@
+body{
+  padding:0px;
+  margin:0px;
+  background-color: #303038;
+}
+
+p{
+  color: white;
+  font-family: helvetica;
+}
+
+h1, h2{
+  font-family: helvetica;
+  color: #b8b800;
+}
+
+h2{
+  font-size:40px;
+}
+
+#hero{
+  width:100vw;
+  height:60vw;
+  overflow:hidden;
+  margin:0px;
+  padding:0px;
+}
+
+#heroimg{
+  width:100vw;
+  position: relative;
+  bottom:33vw;
+}
+
+#hero h1{
+  z-index: 1;
+  position: relative;
+  font-size: 5vw;
+  text-align: center;
+  padding: 1vh 10vw;
+  color: #ff9500;
+  top: 85vh;
+}
+
+#one{
+  margin-left: 5vw;
+  margin-right: 3vw;
+  margin-top: 10vw;
+}
+
+#two{
+  margin-left: 5vw;
+  margin-top: 5vw;
+}
+
+button{
+  background-color: #ff9500;
+  font-family: helvetica;
+  font-size: 30px;
+  padding: 7px 15px;
+  margin: 10px;
+}
+
+
+button:hover{
+  border: solid white 3px;
+  background-color: black;
+  color: white;
+}
+
+button:active{
+  background-color: red;
+}

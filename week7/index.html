@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Time-Quote Machine</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One">
+</head>
+
+<body>
+
+<section>
+<h1 id="quotext">Welcome to the time-quote machine, click the button to get a quote.<br><br><span id="disclaimer">Disclaimer: This is NOT a time machine, ony a machine for time related quotes.</span></h1>
+<button id="another">Get Quote</button>
+</section>
+
+<script>
+  const quotes= ["Time you enjoy wasting is not wasted time. --Marthe Troly-Curtin", "'I wish it need not have happened in my time,' said Frodo. 'So do I,' said Gandalf, 'and so do all who live to see such times. But that is not for them to decide. All we have to decide is what to do with the time that is given us.' --J.R.R. Tolkien", "Don’t waste your time in anger, regrets, worries, and grudges. Life is too short to be unhappy. --Roy T. Bennett", "Books have a unique way of stopping time in a particular moment and saying: Let’s not forget this. --Dave Eggers", "How did it get so late so soon? --Dr. Seuss", "There's never enough time to do all the nothing you want. --Bill Watterson"];
+  let quotecount= 0;
+
+  document.getElementById("another").addEventListener("click", buttonClicked);
+
+  function buttonClicked(){
+
+    console.log(quotes[quotecount]);
+    document.getElementById("quotext").innerHTML=quotes[quotecount];
+    if(quotecount>=5){
+      quotecount=0;
+    }else{
+    quotecount++;
+  }
+
+  }
+
+</script>
+
+</body>
+
+</html>

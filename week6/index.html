@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Interactive Website for Interaction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+<section id="hero">
+  <h1 id="herotext">Welcome to the Interactive Website for Interaction!</h1>
+  <img alt="Building" src="JamesNewton_TombolaHouse.jpg" id="heroimg">
+</section>
+
+<section id="one">
+  <h2>This <span id="first">Website</span> is really interactive.</h2>
+  <p id="paragraph">This website exists for one purpose, and one purpose alone. It is interactive. Visitors are meant to interact with it, so go ahead, push some buttons and interact with some things. It's not much, but if it's one thing, it's interactive!</p>
+
+</section>
+
+<section id="two">
+  <h2>These are the buttons you can use to interact with this interactive site:</h2>
+  <button id="mybutton">Click Here</button>
+  <button id="mybutton2">Click Here Too!</button>
+  <button id="mybutton3">Click Here Too Much!</button>
+</section>
+
+<!-- the console.log part below helps check for issues with javascript. add this and then inspect page for errors-->
+<script>
+  console.log("javascript working");
+  document.getElementById("mybutton").addEventListener("click", buttonOne);
+  document.getElementById("mybutton2").addEventListener("click", buttonClicked);
+  document.getElementById("mybutton3").addEventListener("click", buttonClicker);
+  document.getElementById("hero").addEventListener("click", heroClick);
+
+  function buttonClicked(){
+    alert("You just pushed another button!")
+    document.getElementById("herotext").innerHTML = "Congratulations, you just interacted with this site!";
+  }
+
+  function buttonClicker(){
+    alert("Oh no, you've gone too far. How could you come in here and just click on EVERY button like that!? I said this was an Interactive Website for Interaction, but I never said it was cool to just go around interacting as much as you please!")
+    document.getElementById("paragraph").innerHTML = "Well, there it is. The site has been interacted to the max. Sure you could find more interaction on some other site that was designed by an experienced professional, but you won't find any with this much...well, ok...fine. I guess those other sites probably just outright have more to offer. But hey, you DID interact with this interactive website, and I think that's pretty cool!";
+  }
+
+  function heroClick(){
+    alert("Woaaaah, You're out here clicking on images now? Look how interactive this is getting! Wow!")
+  }
+
+  function buttonOne(){
+    alert("You have just pushed your first button! There aren't very many, so enjoy it while you can!")
+    document.getElementById("first").style.color ="red";
+    document.getElementById("body").style.backgroundColor = "#4d0000";
+  }
+</script>
+
+</body>
+
+</html>

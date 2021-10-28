@@ -1,0 +1,41 @@
+section{
+  font-family: "Pathway Gothic One";
+  background-color: #303030;
+  margin: 30vh 20vw;
+  padding: 10vh 10vw;
+  border: solid 2px;
+  border-radius: 6px;
+  border-color: gold;
+}
+
+body{
+  background-color: #151515;
+}
+
+button{
+  border-radius: 6px;
+  padding: 1vh 5vw;
+  float: right;
+  display: block;
+  margin-top: 1vh;
+  background-color: black;
+  color: lightgray;
+}
+
+button:hover{
+  border: white solid 1px;
+}
+
+button:active{
+  color: black;
+  background-color: lightgray;
+}
+
+h1{
+  color: lightgray;
+}
+
+#disclaimer{
+  font-size: 10px;
+  padding: 10vh 9vw;
+}
