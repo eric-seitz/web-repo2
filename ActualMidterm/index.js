@@ -45,7 +45,7 @@ for(i=0; i<document.getElementsByClassName("boxone").length; i++){
   document.getElementsByClassName("boxone")[i].innerHTML="<h5>"+careItems[day]+"</h5>";
 }
 
-let dailyReminder=["Remember to drink a borderline unhealthy amount of water!","Don't get too in-your-own-head about things you can't control!","Be open to new opportunities!","Learn something new about literally anything today!","Focus on being helpful to others today!","Don't let perfection get in the way of progress!","Check in with the people you care about!"];
+let dailyReminder=["Remember to drink a borderline unhealthy amount of water!","Be open to new opportunities!","Learn something new about literally anything today!","Focus on being helpful to others today!","Don't get too in-your-own-head about things you can't control!","Don't let perfection get in the way of progress!","Check in with the people you care about!"];
 
 for(i=0; i<document.getElementsByClassName("boxtwo").length; i++){
   document.getElementsByClassName("boxtwo")[i].innerHTML="<h6>"+dailyReminder[day]+"</h6>";
