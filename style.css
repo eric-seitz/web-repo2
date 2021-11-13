@@ -1,27 +1,154 @@
+@media screen and (min-width:800px){
+  #hero{
+    z-index: 1;
+    width:100vw;
+    height:60vw;
+    overflow:hidden;
+    margin:0px;
+    padding:0px;
+  }
+
+  #hero h1{
+    top: 95vh;
+    z-index:1;
+    position:relative;
+    font-family: "Montserrat";
+    font-size: 6em;
+    margin-left:9vw;
+    margin-right:50vw;
+  }
+
+  #heroimg {
+    width: 100vw;
+    position:relative;
+    bottom:250px;
+  }
+
+  h2 {
+    font-family: "Montserrat";
+    font-size: 3em;
+    color: gold;
+    text-align: center;
+    background-color: #363636;
+    border: solid 1px white;
+    border-radius: 6px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 30px;
+  }
+
+  ul {
+    font-family: "Raleway";
+    font-size: 1.5em;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    border: dotted 2px;
+    border-radius: 6px;
+    border-color: maroon;
+  }
+
+  #p2 {
+    font-family: "Raleway";
+    text-align: justify;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 25px;
+    padding: 8px;
+    border: dotted 2px;
+    border-radius: 6px;
+    border-color: maroon;
+  }
+
+  #photography{
+    object-fit: cover;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .pic{
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width:801px){
+  #hero{
+    z-index: 1;
+    width:100%;
+    height:50vh;
+  }
+
+  #hero h1{
+    top: 33vh;
+    z-index:1;
+    position: absolute;
+    font-family: "Montserrat";
+    font-size: 3em;
+    text-align: center;
+    margin-left:9vw;
+    margin-right:50vw;
+  }
+
+
+  #heroimg {
+    width: 100%;
+    position: absolute;
+    bottom: 333px;
+  }
+
+  h2 {
+    font-family: "Montserrat";
+    font-size: 2.5em;
+    color: gold;
+    text-align: center;
+    background-color: #363636;
+    border: solid 1px white;
+    border-radius: 6px;
+  }
+
+  ul {
+    font-family: "Raleway";
+    font-size: 1.5em;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border: dotted 2px;
+    border-radius: 6px;
+    border-color: maroon;
+  }
+
+  #p2 {
+    font-family: "Raleway";
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 25px;
+    padding: 8px;
+    border: dotted 2px;
+    border-radius: 6px;
+    border-color: maroon;
+  }
+
+  #photography{
+    object-fit: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .pic{
+    max-width: 100%;
+  }
+}
+
 body {
-  font-size: 20px;
   color: white;
   background-color: black;
-
 }
 
-#hero{
-  width:100vw;
-  height:60vw;
-  overflow:hidden;
-  margin:0px;
-  padding:0px;
-}
-
-#heroimg {
-  width: 100vw;
-  position:relative;
-  bottom:300px;
+p{
+  font-size: 1.5em;
 }
 
 a:link{
   color:gold;
-  font-size: 25px;
+  font-size: 1em;
 }
 
 a:visited{
@@ -32,29 +159,6 @@ a:hover{
   color:white;
 }
 
-h1 {
-  z-index:1;
-  position:relative;
-  font-family: "Montserrat";
-  font-size:5vw;
-  top:90vh;
-  margin-left:9vw;
-  margin-right:50vw;
-}
-
-h2 {
-  font-family: "Montserrat";
-  font-size: 45px;
-  color: gold;
-  text-align: center;
-  background-color: #363636;
-  border: solid 1px white;
-  border-radius: 6px;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-top: 30px;
-
-}
 
 h3 {
   font-family: "Montserrat";
@@ -63,26 +167,16 @@ h3 {
   border: solid 1px white;
   border-radius: 6px;
   text-align: center;
+  margin-top: 0px;
   margin-left: 40vw;
   margin-right: 40vw;
-  margin-bottom: 20px;
-
+  margin-bottom: 10px;
 }
 
 h4 {
   font-family: "Montserrat";
-  font-size: 25px;
+  font-size: 2em;
   text-decoration: underline;
-}
-
-ul {
-  font-family: "Raleway";
-  text-align: justify;
-  margin-left: 20vw;
-  margin-right: 20vw;
-  border: dotted 2px;
-  border-radius: 6px;
-  border-color: maroon;
 }
 
 #p1 {
@@ -92,22 +186,12 @@ ul {
   margin-right: 20vw;
 }
 
-#p2 {
-  font-family: "Raleway";
-  text-align: justify;
-  margin-left: 20vw;
-  margin-right: 20vw;
-  margin-bottom: 50px;
-  border: dotted 2px;
-  border-radius: 6px;
-  border-color: maroon;
-}
-
 #links {
   font-family: "Raleway";
   background-color: #363636;
   border: solid 1px white;
   border-radius: 6px;
   margin-bottom: 50px;
+  padding: 8px;
   text-align: center;
 }
